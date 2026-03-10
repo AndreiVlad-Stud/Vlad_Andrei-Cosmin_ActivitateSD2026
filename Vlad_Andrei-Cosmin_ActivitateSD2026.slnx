@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Vlad_Andrei-Cosmin_ActivitateSD2026.vcxproj" />
+</Solution>
