@@ -127,7 +127,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Rec_Seminar03.c" />
+    <ClCompile Include="ListaDublaEx.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ListaSimplaEx.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ListaSimplaEx2.c" />
+    <ClCompile Include="Rec_Seminar03.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Rec_Seminar04.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Rec_Seminar05.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Rec_Seminar06.c" />
+    <ClCompile Include="Rec_Seminar08.c" />
+    <ClCompile Include="Rec_Seminar10.c" />
+    <ClCompile Include="Rec_Seminar11.c" />
+    <ClCompile Include="Rec_Seminar12.c" />
+    <ClCompile Include="Stiva_CoadaEx.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TaskSuplimentar5_ListeSimple.c" />
+    <ClCompile Include="TaskSuplimentar8_HashTable.c" />
+    <ClCompile Include="TaskSuplimentar9_Heap.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />

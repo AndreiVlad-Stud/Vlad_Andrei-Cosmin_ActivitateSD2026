@@ -18,6 +18,48 @@
     <ClCompile Include="Rec_Seminar03.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Rec_Seminar04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rec_Seminar05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaSimplaEx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaDublaEx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stiva_CoadaEx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaSimplaEx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rec_Seminar06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rec_Seminar08.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rec_Seminar10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rec_Seminar11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rec_Seminar12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSuplimentar5_ListeSimple.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSuplimentar8_HashTable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSuplimentar9_Heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />
