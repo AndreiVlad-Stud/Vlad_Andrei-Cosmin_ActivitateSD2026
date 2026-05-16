@@ -60,6 +60,15 @@
     <ClCompile Include="TaskSuplimentar9_Heap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="exSuperNouListaSimpla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LD.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AltExListaSimpla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />

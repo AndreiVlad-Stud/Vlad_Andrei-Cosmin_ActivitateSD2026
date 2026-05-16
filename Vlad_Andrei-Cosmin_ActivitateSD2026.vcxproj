@@ -127,6 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AltExListaSimpla.c" />
+    <ClCompile Include="exSuperNouListaSimpla.c" />
+    <ClCompile Include="LD.c" />
     <ClCompile Include="ListaDublaEx.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -12,14 +12,14 @@ typedef struct Comanda {
 
 }Comanda;
 
-structura nod
+//structura nod
 
 typedef struct Nod {
 	Comanda info;
 	struct Nod* next;
 }Nod;
 
- constructor
+// constructor
 
 Comanda creareComanda(unsigned int idComanda, char* dataLansare, char* numeClient, int pret) {
 	Comanda c;
@@ -37,7 +37,7 @@ Comanda creareComanda(unsigned int idComanda, char* dataLansare, char* numeClien
 
 }
 
- afisare obiect
+ //afisare obiect
 
 void afisareComanda(Comanda c) {
 	printf("Id Comanda: %u | Data Lansare Comanda: %s | Nume Client: %s | Pret : %d\n",
@@ -45,7 +45,7 @@ void afisareComanda(Comanda c) {
 
 }
 
-afisare lista -> aici o sa afisam ceva dinamic, deci o sa avem pointer ca sa avem o adresa de plecare
+//afisare lista -> aici o sa afisam ceva dinamic, deci o sa avem pointer ca sa avem o adresa de plecare
 
 void afisareListaComenzi(Nod* cap) {
 	printf("Lista comenzi\n");
@@ -55,9 +55,9 @@ void afisareListaComenzi(Nod* cap) {
 	}
 }
 
-
-functiile de inserare. La lista simpla avem inserare la inceput si inserare la final
-trebuie sa setam doar next-ul pt nou nod in functie de unde o sa fie acesta pozitionat
+//
+//functiile de inserare. La lista simpla avem inserare la inceput si inserare la final
+//trebuie sa setam doar next-ul pt nou nod in functie de unde o sa fie acesta pozitionat
 
 void inserareInceput(Nod** cap, Comanda c) {
 	Nod* nou = (Nod*)malloc(sizeof(Nod));
@@ -84,7 +84,7 @@ void inserareFinal(Nod** cap, Comanda c) {
 	}
 }
 
-functia de citire obiect din fisier
+//functia de citire obiect din fisier
 
 Comanda citesteCoamndaDinFisier(FILE* file) {
 	Comanda c;
@@ -123,10 +123,10 @@ Comanda citesteCoamndaDinFisier(FILE* file) {
 	return c;
 }
 
-facem functia de citiree lista de obiected din fisier
- fiind vorba de o lista, o sa avem fie un for sau un while.
- o sa ne folosim de functia noastra de mai sus care citeste un obiect
- o sa fie clar de tip nod pt ca este o lista de obiecte, nu un simplu obiect
+//facem functia de citiree lista de obiected din fisier
+// fiind vorba de o lista, o sa avem fie un for sau un while.
+// o sa ne folosim de functia noastra de mai sus care citeste un obiect
+// o sa fie clar de tip nod pt ca este o lista de obiecte, nu un simplu obiect
 
 Nod* citireListaMasiniDinFisier(const char* numeFisier) {
 	FILE* file = fopen(numeFisier, "r");
@@ -149,7 +149,7 @@ Nod* citireListaMasiniDinFisier(const char* numeFisier) {
 
 }
 
- functiile de stergere
+ //functiile de stergere
 
 void  stergereNodPozitie(Nod** cap, int pozitie) {
 	if (*cap == NULL) return;
@@ -184,7 +184,7 @@ void  stergereNodPozitie(Nod** cap, int pozitie) {
 }
 
 
-stergere dupa un anumit parametru
+//stergere dupa un anumit parametru
 
 void stergereComandaDupaID(Nod** cap, unsigned int idCautat) {
 	while (*cap != NULL && (*cap)->info.idComanda == idCautat) {//trateaza cazul in care primul nod din lista trebuie sters
@@ -194,11 +194,11 @@ void stergereComandaDupaID(Nod** cap, unsigned int idCautat) {
 		free(temp->info.numeClient);
 		free(temp);
 
-		dupa se repeta si merge mai departe pana cand primul nod din lista nu o sa mai contina parametru dorit
+		//dupa se repeta si merge mai departe pana cand primul nod din lista nu o sa mai contina parametru dorit
 	}
 
 	if (*cap == NULL) return; //basically daca cap == NULL, inseamna ca nu existas lista deci nu avem ce sterge
-	trebuie pus aici pt ca, dupa ce am sters noduri de mai sus, posibil ca lista sa devica goala
+	//trebuie pus aici pt ca, dupa ce am sters noduri de mai sus, posibil ca lista sa devica goala
 
 	Nod* curent = *cap; //ne facem un nou nod care retine info din cap. cap acum nu mai contine atributul dupa care noi stergem
 
