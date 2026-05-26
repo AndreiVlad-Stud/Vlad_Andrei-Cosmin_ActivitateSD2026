@@ -1,0 +1,7 @@
+4,Ion,250.5
+2,Maria,120
+6,Andrei,300
+1,Elena,90
+3,Radu,150
+5,Cristina,200
+7,Paul,175

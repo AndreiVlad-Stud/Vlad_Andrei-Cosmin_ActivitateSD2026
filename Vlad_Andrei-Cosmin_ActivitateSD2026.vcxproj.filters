@@ -69,8 +69,42 @@
     <ClCompile Include="AltExListaSimpla.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ABC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ABD5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />
+    <Text Include="pacienti.txt" />
   </ItemGroup>
 </Project>

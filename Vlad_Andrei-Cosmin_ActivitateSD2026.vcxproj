@@ -127,8 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ABC.c" />
+    <ClCompile Include="ABC2.c" />
+    <ClCompile Include="ABC3.c" />
+    <ClCompile Include="ABC4.c" />
+    <ClCompile Include="ABC6.c" />
+    <ClCompile Include="ABC7.c" />
+    <ClCompile Include="ABD5.c" />
     <ClCompile Include="AltExListaSimpla.c" />
     <ClCompile Include="exSuperNouListaSimpla.c" />
+    <ClCompile Include="Heap.c" />
+    <ClCompile Include="Heap2.c" />
+    <ClCompile Include="Heap3.c" />
+    <ClCompile Include="Heap4.c" />
     <ClCompile Include="LD.c" />
     <ClCompile Include="ListaDublaEx.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -160,6 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />
+    <Text Include="pacienti.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
